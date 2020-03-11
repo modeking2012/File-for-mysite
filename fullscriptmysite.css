@@ -1114,10 +1114,7 @@ body#layout {
 }
 
 
-<b:template-skin>
-<b:variable default='1210px' name='content.width' type='length' value='1350px'/>
-<b:variable default='300px' name='main.column.left.width' type='length'/>
-<![CDATA[
+
 /* ================
  * Main Template 
  * ================ */ 
