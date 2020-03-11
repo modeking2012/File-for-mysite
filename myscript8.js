@@ -1,0 +1,1 @@
+/*<![CDATA[*/document.addEventListener('DOMContentLoaded',function(){var Loading=document.getElementById('loading-screen');document.body.classList.remove('b-overflow');Loading.classList.add('fadeOut');setTimeout(function(){Loading.parentNode.removeChild(Loading)},1000)});/*]]>*/
