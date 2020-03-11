@@ -1,4 +1,4 @@
-/*<![CDATA[*/
+
 (function (factory) {
         if (typeof define === 'function' && define.amd) {
                 define(['jquery'], factory)
@@ -196,5 +196,5 @@
         document.createElement("abbr");
         document.createElement("time")
 }));
-/*]]>*/
+
 
