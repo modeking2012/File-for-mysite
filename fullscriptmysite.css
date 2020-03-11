@@ -1,4 +1,28 @@
+#header-inner img
+{
+max-height: 200px;
+  }
+</style>
 
+<style>
+
+@media screen and (max-width : 910px) {
+
+#main {
+    width:100% !important;
+}
+
+
+  }
+
+@media screen and (max-width : 910px) {
+
+aside {
+    width: 100% !important;
+}
+
+
+  }
 @font-face {
 	font-family: 'GE Dinar One';
 	src: url('subset-GE Dinar One-Medium.eot');
