@@ -880,3 +880,5 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 	a.Children:before {content:"\f1ae"}
 	a.Photography:before {content:"\f030"}
 	a.Beauty:before {content:"\f004"}
+html {overflow-x: hidden;}
+
