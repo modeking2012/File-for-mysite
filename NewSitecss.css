@@ -161,7 +161,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 	.ticker .widget{height:40px;background-color:#ffffff;max-width:1170px;margin:20px auto;overflow:hidden}
 	.tk-thumb{float:right;margin:4px 0 0 10px}
 	.tk-img{position:relative;display:block;width:35px;height:30px;overflow:hidden}
-	.ticker .post-tag{display:inline-block;background-color:$(main.color);color:#fff;margin-left:10px;font-weight:400;height:18px;line-height:18px;padding:1px 6px;font-size:11px;text-transform:uppercase;position:relative;margin-top:10px;float:right}
+	.ticker .post-tag{display:inline-block;background-color:$(main.color);color:#000;margin-left:10px;font-weight:400;height:18px;line-height:18px;padding:1px 6px;font-size:11px;text-transform:uppercase;position:relative;margin-top:10px;float:right}
 	.ticker .recent-title{font-size:13px;font-weight: 600;display:inline-block;line-height:15px}
 	.ticker .recent-title a{color:#222222}
 	.ticker .recent-title a:hover{color:$(main.color)}
@@ -215,7 +215,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 		font-weight: 400;
 		text-transform: uppercase;}
 	a.more-link:hover,a.posts-link:hover{background-color:$(main.color);color:#fff}
-	.box-title,.posts-title{height:30px;line-height:30px;background-color:#f9f9f9;position:relative;margin-bottom:15px}
+	.box-title,.posts-title{height:30px;line-height:30px;background-color:#000;position:relative;margin-bottom:15px}
 	.box-title h2.title,.posts-title h2{    position: relative;
 		float: right;
 		height: 27px;
@@ -465,7 +465,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 	#meta-post .timestamp-link{margin-right:10px}
 	#meta-post .timestamp-link abbr:before{content:'\f133';font-family: FontAwesome;color:#bbb;margin-left:5px}
 	.resumo{margin-top:8px;font-size:13px;line-height:1.5em;color:#888}
-	.resumo span{display:block;margin-bottom:8px;padding-left:10px}
+	.resumo span{display:block;margin-bottom:8px;padding-left:10px;color:#000;}
 	a.read-more{display:inline-block;margin-bottom:0;font-weight:400;text-align:right;vertical-align:middle;cursor:pointer;background-image:none;white-space:nowrap;line-height:25px;height:25px;color:#fff;background-color:$(main.color);border-radius:2px;font-size:16px;padding:0 10px;margin-top:3px;outline:none;border:none;overflow:hidden}
 	a.read-more:after{content:"\f100";font-family: FontAwesome;font-size:13px;margin-right:5px}
 	.post-meta{color:#bdbdbd;display:block;font-size:13px;font-weight:400;line-height:21px;margin:0;padding:0}
@@ -645,7 +645,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 		padding: 0;
 		position: relative;
 		margin-bottom: 15px;
-		background: #f9f9f9;
+		background: #000;
 		position: relative;
 	height:30px;
 	}
